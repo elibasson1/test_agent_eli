@@ -1,0 +1,5 @@
+to create allure report : pytest -v -s pytest -v -s --alluredir=repoerallure
+
+--alluredir=repoerallure -- <<< allure folder
+
+to view report : allure serve .\repoerallure\
